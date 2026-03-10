@@ -13,5 +13,6 @@ export class App {
   age = 26;
   sayHello(){
     console.log('xin chao');
+    alert('xin chao ' + this.fullName);
   }
 }
