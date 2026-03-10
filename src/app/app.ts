@@ -11,8 +11,8 @@ export class App {
   title = 'my-app';
   fullName = "Tran Xuan Dung";
   age = 26;
-  sayHello(){
+  handleClick(){
     console.log('xin chao');
-    alert('xin chao ' + this.fullName);
+    alert('Bạn đã click button');
   }
 }
