@@ -5,9 +5,9 @@
     </a>
 
     <div class="hidden md:flex items-center space-x-8">
-      <a [routerLink]="['/']" class="hover:text-gray-200">Home</a>
-      <a [routerLink]="['/about']" class="hover:text-gray-200">About</a>
-      <a [routerLink]="['/contact']"  class="hover:text-gray-200">Contact</a>
+      <a [routerLink]="['/']" routerLinkActive="active" class="hover:text-gray-200">Home</a>
+      <a [routerLink]="['/about']" routerLinkActive="active" class="hover:text-gray-200">About</a>
+      <a [routerLink]="['/contact']" routerLinkActive="active"  class="hover:text-gray-200">Contact</a>
     </div>
 
     <div class="hidden md:flex items-center space-x-6">
@@ -18,13 +18,13 @@
 </nav>
 
 <div class="max-w-6xl mx-auto mt-10 px-4 text-center">
-  <h1 class="text-4xl font-bold mb-4 text-red-500">Xin chào Angular</h1>
+  <!-- <h1 class="text-4xl font-bold mb-4 text-red-500">Xin chào Angular</h1>
   <h1 class="text-3xl font-bold mb-4 text-blue-500">Tôi đang học Angular Framework</h1>
   <p>Ten : {{fullName}}</p>
   <p>Tuoi :{{age}}</p>
   <button class="bg-blue-600 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
   (click)="handleClick()">
   Click Me
-  </button>
+  </button> -->
   <router-outlet></router-outlet>
 </div>
