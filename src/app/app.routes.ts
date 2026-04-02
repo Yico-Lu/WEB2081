@@ -2,6 +2,7 @@ import { Routes } from '@angular/router';
 import { Stories } from './pages/stories/stories';
 import { AddStory } from './pages/add-story/add-story';
 import { EditStory } from './pages/edit-story/edit-story';
+import { Register } from './pages/register/register';
 
 export const routes: Routes = [
   {
@@ -17,4 +18,8 @@ export const routes: Routes = [
     path: 'edit/:id',
     component: EditStory,
   },
+  {
+    path: 'register',
+    component: Register
+  }
 ];

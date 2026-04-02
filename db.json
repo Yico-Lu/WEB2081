@@ -5,5 +5,12 @@
       "id": 1
     }
   ],
-  "users": []
+  "users": [
+    {
+      "email": "xuandungg2601@gmail.com",
+      "password": "$2a$10$WiNgkGz60L8knXLTaJLCYupdFxoDpLYfiigf5MmDgkF9Wih0h/OIe",
+      "name": "dung",
+      "id": 1
+    }
+  ]
 }
