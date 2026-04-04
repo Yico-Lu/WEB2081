@@ -12,8 +12,12 @@
     </div>
 
     <div class="hidden md:flex items-center space-x-6">
-      <a href="#" class="hover:text-gray-200">Đăng nhập</a>
+      <a href="/login" class="hover:text-gray-200">Đăng nhập</a>
       <a href="/register" class="hover:text-gray-200">Đăng ký</a>
+      @if (user) {
+        <span>Xin chào: {{ user.email }}</span>
+        <button (click)="logout()">Logout</button>
+      }
       <a
         routerLink="/contact"
         routerLinkActive="active"

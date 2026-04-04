@@ -16,4 +16,19 @@ export class App {
     console.log('hello ');
     alert('hello ' + this.fullName);
   }
+  user: any;
+
+ngOnInit(){
+  const data = localStorage.getItem('user');
+  if(data){
+    this.user = JSON.parse(data);
+  }
 }
+
+logout(){
+  localStorage.removeItem('token');
+  localStorage.removeItem('user');
+  this.user = null;
+}
+}
+
